@@ -1,0 +1,319 @@
+body {
+    color: #001D2A;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 430px;
+    background-color: #001D2A;
+}
+
+header {
+    width: 430px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    top: 0; 
+    transition: top 0.3s;
+}
+
+.hidden {
+    top: -100px; /* Скрыть панель за пределами экрана */
+}
+
+.header__text {
+    font-size: 25px;
+    color: #001D2A;
+    margin-left: -235px;
+    font-weight: 600;
+}
+
+
+.contant {
+    padding-bottom: 2px;
+}
+
+.contant.top {
+    padding-top: 53px;
+}
+
+.contant.contant__bottom {
+    padding-bottom: 53px;
+}
+
+.contant__block {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin: 0 4px;
+}
+
+.contant__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.contant__text-block {
+    margin-left: -90px;
+}
+
+.contant__title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.contant__time {
+    font-size: 14px;
+}
+
+.contant__text {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.contant__img {
+    padding-bottom: 15px;
+    width: 403px;
+}
+
+.informations {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.favorit {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.favorit__focus {
+    background-image: url(./resurs/Vector\ 4.png);
+    border: 0;
+    width: 26px;
+    height: 23px;
+    background-color: transparent;
+}
+
+.favorit__focus:focus {
+    background-image: url(./resurs/Vector\ 7.png);
+    width: 24px;
+    height: 21px;
+}
+
+.contant_views {
+    font-size: 14px;
+}
+
+.contant__text-block.closer {
+    margin-left: -210px;
+}
+
+.contant__text__down {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.point {
+    margin-left: -80px;
+}
+
+footer {
+    padding: 10px 35px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+
+.navbar.bottom {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    transition: bottom 0.3s;
+
+  }
+  
+  /* Когда панели скрыты */
+  .hidden-top {
+    top: -100px;
+  }
+  
+  .hidden-bottom {
+    bottom: -100px;
+  }
+
+.header__profil {
+    padding: 40px 10px 20px;
+    background-image: url(./resurs/profil.png);
+}
+
+.header__list {
+    padding-top: 342px;
+    padding-left: 130px;
+}
+
+.informahions__abuot {
+    position: sticky;
+    z-index: 4;
+    padding-bottom: 4px;
+    margin: 0 4px;
+}
+
+.informahion__abuot {
+    padding: 20px 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.name {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.befor__informahion {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.befor {
+    display: flex;
+    gap: 5px;
+}
+
+.befor__text {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.about {
+    padding-bottom: 20px;
+}
+
+.about__texts {
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.about__text {
+    color: rgba(0, 29, 42, 0.562);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.poragraf {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.interests__title {
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.interests {
+    padding-bottom: 20px;
+}
+
+.interest {
+    display: flex;
+    gap: 5px;
+}
+
+.interest__btn {
+    padding: 6px 26px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+
+.interest__btn.pink {
+    background: rgba(255, 0, 229, 1);
+}
+
+.interest__btn.blue {
+    background: rgba(0, 26, 255, 1);
+}
+
+.interest__btn.red {
+    background: rgba(255, 0, 77, 1);
+}
+
+.applications {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.application-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 37px;
+    background: rgba(0, 29, 42, 1);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.application__btn {
+    background: rgba(0, 29, 42, 1);
+    border: 0;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.frends {
+    margin: 0 4px;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frends__numder {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.frends__text {
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,532 @@
+body {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 430px;
+    background-color: #001D2A;
+}
+
+.logo {
+    padding: 102px 93px 60px 93px;
+}
+
+.entrance {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.entrance__input {
+    padding: 20px 15px;
+    background-color: #001D2A;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    border-color: #ffffff;
+    line-height: 90%;
+}
+
+.entrance__input:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.btn__open {
+    margin-bottom: 5px;
+    padding: 17px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    line-height: 90%;
+    border: 0;
+}
+
+.btn__open:hover {
+    color: #00000040;
+}
+
+.recover-password {
+    margin-bottom: 101px;
+    color: #ffffff30;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 90%;
+}
+
+
+.or {
+    padding-bottom: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    line-height: 90%;
+}
+
+.line {
+    width: 170px;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.entrance__Ak {
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.entrance__Akbtn {
+    align-items: center;
+    background-color: #001D2A;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 17px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    line-height: 90%;
+}
+
+.entrance__Akbtn:hover { 
+    background-color: #ffffff;
+    color: black;
+}
+
+.registration {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 17px;
+    line-height: 90%;
+}
+
+.registration__q {
+    color: #ffffff30;
+}
+
+.registration__link {
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    gap: 130px;
+    color: #ffffff;
+}
+
+.header__logo img{
+    width: 80px;
+}
+
+.registrst {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 444px;
+}
+
+.input__tel {
+    padding: 20px 15px;
+    background-color: #001D2A;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    border-color: #ffffff;
+    line-height: 90%;
+}
+
+.resume {
+    padding: 17px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    line-height: 90%;
+    text-align: center;
+    width: 100%;
+    border: 0;
+}
+
+.registrst__text {
+    width: 390px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 90%;
+    color: #ffffff;
+}
+
+span {
+    color: #ffffff30;
+}
+
+.registrst__title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 90%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.registrst__text {
+    font-size: 20px;
+    line-height: 110%;
+    text-align: center;
+    width: 350px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+}
+
+.registrst__input-sms {
+    padding: 20px 0;
+    background-color: #001D2A;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    border-color: #ffffff;
+    line-height: 90%;
+    width: 280px;
+    text-align: center;
+    
+}
+
+.registrst.center {
+    align-items: center;
+}
+
+.registrst__input-btn {
+    padding: 17px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    line-height: 90%;
+    width: 280px;
+    border: 0;
+}
+
+.text {
+    font-size: 17px;
+    line-height: 90%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.entrance__there {
+    padding-bottom: 470px;
+}
+
+.btn__open.big {
+    width: 100%;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filters__input {
+    padding: 20px 15px;
+    background-color: #001D2A;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    border-color: #ffffff;
+    line-height: 90%;
+}
+
+.filters__btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.filter__btn {
+    position: relative;
+    width: 192px;
+    padding: 17px 15px;
+    background-color: #353533;
+    border-color: #ffffff;
+    color: #ffffff30;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.filter__btn:focus {
+    background-color: #ffffff;
+    color: black;
+}
+
+.filter__btn.man::before {
+    content: url(../resurs/man.png);
+    position: absolute;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.filter__btn.man:focus::before {
+    
+}
+
+.filter__btn.woman::before {
+    content: url(./resurs/icons8-женщина-24.png);
+    position: absolute;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.filter__btn.woman:focus::before {
+    content: url(./resurs/icons8-женщина-100.png);
+}
+
+.let {
+    margin: 20px 0 275px 0;
+    width: 100%;
+}
+
+.photo {
+    padding-top: 126px;
+    text-align: center;
+    padding-bottom: 278px;
+    
+}
+
+  /* Скрыть стандартный input type="file" */
+  input[type="file"] {
+    display: none;
+}
+
+form{
+    position: relative;
+    top: -35px;
+    left: -28px;
+}
+
+/* Стили для кастомной кнопки */
+.custom-file-upload {
+   background-image: url(./resurs/Group\ 21.png);
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   
+}
+
+.form {
+    margin-bottom: 40px;
+}
+
+.file{
+    top: -45px;
+    left: 30px;
+}
+
+
+.custom-file{
+    background-image: url(./resurs/Group\ 14.png);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+ }
+
+/* Контейнер с горизонтальной прокруткой */
+.scroll-container {
+    display: flex;
+    overflow-x: auto; /* Горизонтальный скроллинг */
+    scroll-snap-type: x mandatory; /* Привязка к элементам при скролле */
+    gap: 5px; /* Расстояние между кнопками */
+    padding: 40px 20px 35px;
+}
+
+/* Прокручиваемые элементы (кнопки) */
+.scroll-container .scroll__btn {
+    flex: 0 0 auto; /* Кнопки не сжимаются */
+    padding: 15px 20px;
+    background-color: #353533;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    scroll-snap-align: start; /* Привязка к началу элемента */
+    cursor: pointer;
+}
+
+.scroll-container .scroll__btn:focus {
+    background-color: #001AFF;
+}
+
+.scroll-container .scroll__btn.activ {
+    background-color: #001AFF;
+}
+
+/* Скрытие полосы прокрутки для эстетики */
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.filter__favorit img{
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    font-size: 25px;
+    margin-top: -115px;
+    width: 180px;
+    margin-left: 10px;
+}
+
+.falover {
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -120px;
+    background-image: url(./resurs/Frame\ 56.png);
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #00000040;
+}
+
+.falover:focus {
+    background-image: url(./resurs/Frame\ 5.png);
+}
+
+.filters__favorit {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.close {
+    padding: 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #001D2A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 145px;
+    align-items: center;
+}
+
+/* Скрыть кнопку по умолчанию */
+#save-btn {
+    display: none;
+}
+
+.text-message {
+    text-align: center;
+    margin-top: -70px;
+    position: absolute;
+    padding: 10px 33px;
+    background-color: white;
+    color: #001D2A;
+    width: 390px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Расположение элементов по краям */
+    align-items: center; /* Выравнивание по вертикали */
+    gap: 20px; /* Расстояние между текстом и кнопкой */
+}
+
+.ready-text {
+    color: #001D2A;
+    text-align: left;
+    width: 390px;
+    text-align: center;
+}
+
+.button-text-container {
+    margin-left: 10px;
+    width: 390px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start; /* Кнопка слева, текст справа */
+    align-items: center; /* Вертикальное выравнивание */
+    gap: 10px; /* Расстояние между кнопкой и текстом */
+}
+
+.scroll {
+    display: flex;
+
+}
+
+.scroll__btn__poisk {
+    background-image: url(./resurs/Group\ 23.png);
+    width: 100px;
+    height: 93px;
+    border: 0;
+    background-color: transparent;
+}
+
+.input__poisk {
+    width: 361px;
+    padding: 15px 10px;
+    background-color: #353533;
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+header.small {
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.text__poisks {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.poisks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.poisk {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.text__poisk {
+    font-size: 25px;
+    width: 204px;
+    margin-left: -50px;
+}
+
+.btn__poisk {
+    background-image: url(./resurs/Vector.png);
+    width: 37px;
+    height: 32px;
+    border: 0;
+    background-color: transparent ;
+}
+
+.btn__poisk:focus {
+    background-image: url(./resurs/Vector\ 3.png);
+    width: 35px;
+    height: 30px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регестрация</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="scroll">
+            <div class="scroll-container">
+                <button class="scroll__btn">Книги</button>
+                <button class="scroll__btn activ">Музыка</button>
+                <button class="scroll__btn">Искусство</button>
+                <button class="scroll__btn">Фильмы</button>
+                <button class="scroll__btn">Спорт</button>
+                <button class="scroll__btn">Путишествия</button>
+            </div>
+            <a href="./registration 8.html"><button class="scroll__btn__poisk"> </button></a>
+        </div>
+
+        <div class="filters__favorit">
+            <div class="filter__favorit">
+                <img src="./resurs/Frame 55 (1).png" alt="">
+                <p class="text">Академическая Музыка</p>
+                <button class="falover" id="fav-btn" onclick="addToFavorites()"></button>
+            </div>
+            <div class="filter__favorit">
+                <img src="./resurs/image (17).png" alt="">
+                <p class="text">Московская филармония</p>
+                <button class="falover" id="fav-btn" onclick="addToFavorites()"></button>
+            </div>
+        </div>
+        <div class="filters__favorit">
+            <div class="filter__favorit">
+                <img src="./resurs/image (18).png" alt="">
+                <p class="text">Soyuz Music</p>
+                <button class="falover"  id="fav-btn" onclick="addToFavorites()"></button>
+            </div>
+            <div class="filter__favorit">
+                <img src="./resurs/image (19).png" alt="">
+                <p class="text">CHENSKY</p>
+                <button class="falover" id="fav-btn" onclick="addToFavorites()"></button>
+            </div>
+        </div>
+        <div class="filters__favorit close">
+            <div class="filter__favorit">
+                <img src="./resurs/image (20).png" alt="">
+
+            </div>
+            <div class="filter__favorit">
+                <img src="./resurs/image (21).png" alt="">
+            </div>
+        </div>
+        <div class="button-text-container">
+            <!-- Кнопка сохранить (изначально скрыта) -->
+            <a href="./indexOne.html"><button id="save-btn" class="btn">Сохранить</button></a>
+            <div id="text-message" class="text-message">
+                Выберите группы, которые наиболее подходят под ваши интересы
+            </div>
+        </div>
+    </div>
+    <script>
+        function addToFavorites() {
+            var textMessage = document.getElementById('text-message');
+            var saveBtn = document.getElementById('save-btn');
+            
+            // Изменяем текст и добавляем новый класс
+            textMessage.textContent = "Готово! Но можно выбрать больше";
+            textMessage.classList.add('ready-text'); // Добавляем класс
+            
+            // Показываем кнопку "Сохранить"
+            saveBtn.style.display = 'inline-block';
+        }
+    </script>
+</body>
+</html>

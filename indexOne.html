@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студнет.</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <div class="container ">
+        <header class="navbar">
+            <a href="./profile.html"><img src="./resurs/Ellipse 2 (1).png" alt=""></a>
+            <p class="header__text">Главная</p>
+            <a href=""><img src="./resurs/bell.png" alt=""></a>
+        </header>
+        <div class="main">
+            <div class="contant top">
+                <div class="contant__block ">
+                    <div class="contant__header">
+                        <img src="./resurs/Ellipse 2 (2).png" alt="">
+                        <div class="contant__text-block">
+                            <h2 class="contant__title">Академическая Музыка</h2>
+                            <p class="contant__time">сегодня в 3:11</p>
+                        </div>
+                        <div class="add"><img src="./resurs/Group 18 (1).png" alt=""></div>
+                    </div>
+                
+                    <p class="contant__text">И даже когда всё идет не так, как хотелось бы, я здесь на своем месте</p>
+                    <img src="./resurs/image (26).png" alt="" class="contant__img">
+                
+                    <div class="informations">
+                        <div class="information">
+                            <div class="favorit">
+                                <button class="favorit__focus"></button>
+                                <p>46</p>
+                            </div>
+                            <div class="favorit">
+                                <img src="./resurs/Frame 82.png" alt="">
+                                <p>31</p>
+                            </div>
+                            <img src="./resurs/Vector (5).png" alt="">
+                        </div>
+                        <img src="./resurs/Vector (6).png" alt="">
+                    </div>
+                    <p class="contant_views">Просмотрено: 321</p>
+                </div>
+            </div>
+
+            <div class="contant">
+                <div class="contant__block">
+                    <div class="contant__header">
+                        <img src="./resurs/Ellipse 2 (4).png" alt="">
+                        <div class="contant__text-block closer">
+                            <h2 class="contant__title">Soyuz Music</h2>
+                            <p class="contant__time">сегодня в 3:11</p>
+                        </div>
+                        <div class="add"><img src="./resurs/Group 18 (1).png" alt=""></div>
+                    </div>
+                
+                    <p class="contant__text">Marato, Asatro Любовь не понимаю</p>
+                    <p class="contant__text__down">«Эту боль забыть не в силах… ».</p>
+                    <img src="./resurs/image (28).png" alt="" class="contant__img">
+                
+                    <div class="informations">
+                        <div class="information">
+                            <div class="favorit">
+                                <button class="favorit__focus"></button>
+                                <p>19</p>
+                            </div>
+                            <div class="favorit">
+                                <img src="./resurs/Frame 82.png" alt="">
+                                
+                            </div>
+                            <div class="favorit">
+                                <img src="./resurs/Vector (5).png" alt="">
+                                <p>11</p>
+                            </div>
+                        </div>
+                        <img src="./resurs/Vector (6).png" alt="">
+                    </div>
+                    <p class="contant_views">Просмотрено: 2.1 К</p>
+                </div>
+            </div>
+
+                <div class="contant contant__bottom">
+                    <div class="contant__block">
+                        <div class="contant__header">
+                            <img src="./resurs/Ellipse 2 (3).png" alt="">
+                            <div class="contant__text-block">
+                                <h2 class="contant__title">Московская филармония</h2>
+                                <p class="contant__time">сегодня в 3:11</p>
+                            </div>
+                            <div class="add"><img src="./resurs/Group 18 (1).png" alt=""></div>
+                        </div>
+                    
+                        <p class="contant__text">Сентябрь в Зале Чайковского</p>
+                        <img src="./resurs/image (29).png" alt="" class="contant__img">
+                    
+                        <div class="informations">
+                            <div class="information">
+                                <div class="favorit">
+                                    <button class="favorit__focus"></button>
+                                    <p>173</p>
+                                </div>
+                                <div class="favorit">
+                                    <img src="./resurs/Frame 82.png" alt="">
+                                    <p>3</p>
+                                </div>
+                                <div class="favorit">
+                                    <img src="./resurs/Vector (5).png" alt="">
+                                    <p>3</p>
+                                </div>
+                            </div>
+                            <img src="./resurs/Frame 39.png" alt="" class="point">
+                            <img src="./resurs/Vector (6).png" alt="">
+                        </div>
+                        <p class="contant_views">Просмотрено: 12 К</p>
+                    </div>
+                </div>
+        </div>
+        
+
+
+
+        <footer class="navbar bottom">
+            <img src="./resurs/Group 7 (2).png" alt="">
+            <img src="./resurs/Group 6 (1).png" alt="">
+            <img src="./resurs/Group 9 (1).png" alt="">
+            <img src="./resurs/Group 5 (1).png" alt="">
+            <img src="./resurs/Vector (9).png" alt="">
+        </footer>
+        
+    
+
+    </div>
+
+    <script>
+                let lastScrollTop = 0;
+        const navbarTop = document.querySelector('.navbar');
+        const navbarBottom = document.querySelector('.navbar.bottom');
+
+        window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            // Прокрутка вниз: скрываем верхнюю панель и показываем нижнюю
+            navbarTop.classList.add('hidden-top');
+            navbarBottom.classList.remove('hidden-bottom');
+        } else {
+            // Прокрутка вверх: показываем верхнюю панель и скрываем нижнюю
+            navbarTop.classList.remove('hidden-top');
+            navbarBottom.classList.add('hidden-bottom');
+        }
+
+        lastScrollTop = scrollTop;
+        });
+    </script>
+</body>
+</html>
